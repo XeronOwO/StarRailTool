@@ -1,0 +1,1564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbcMainTab.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btnGachaToolCopyGachaLink.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnGachaToolCopyGachaLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 6</value>
+  </data>
+  <data name="btnGachaToolCopyGachaLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnGachaToolCopyGachaLink.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnGachaToolCopyGachaLink.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="&gt;&gt;btnGachaToolCopyGachaLink.Name" xml:space="preserve">
+    <value>btnGachaToolCopyGachaLink</value>
+  </data>
+  <data name="&gt;&gt;btnGachaToolCopyGachaLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGachaToolCopyGachaLink.Parent" xml:space="preserve">
+    <value>tbpGachaTool</value>
+  </data>
+  <data name="&gt;&gt;btnGachaToolCopyGachaLink.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblGachaToolGachaLinkStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGachaToolGachaLinkStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 61</value>
+  </data>
+  <data name="lblGachaToolGachaLinkStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblGachaToolGachaLinkStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblGachaToolGachaLinkStatus.Name" xml:space="preserve">
+    <value>lblGachaToolGachaLinkStatus</value>
+  </data>
+  <data name="&gt;&gt;lblGachaToolGachaLinkStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGachaToolGachaLinkStatus.Parent" xml:space="preserve">
+    <value>tbpGachaTool</value>
+  </data>
+  <data name="&gt;&gt;lblGachaToolGachaLinkStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtGachaToolGachaLink.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtGachaToolGachaLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 35</value>
+  </data>
+  <data name="txtGachaToolGachaLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>778, 23</value>
+  </data>
+  <data name="txtGachaToolGachaLink.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtGachaToolGachaLink.Name" xml:space="preserve">
+    <value>txtGachaToolGachaLink</value>
+  </data>
+  <data name="&gt;&gt;txtGachaToolGachaLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGachaToolGachaLink.Parent" xml:space="preserve">
+    <value>tbpGachaTool</value>
+  </data>
+  <data name="&gt;&gt;txtGachaToolGachaLink.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnGachaToolGetGachaLink.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnGachaToolGetGachaLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="btnGachaToolGetGachaLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="btnGachaToolGetGachaLink.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnGachaToolGetGachaLink.Text" xml:space="preserve">
+    <value>Get Gacha Link</value>
+  </data>
+  <data name="&gt;&gt;btnGachaToolGetGachaLink.Name" xml:space="preserve">
+    <value>btnGachaToolGetGachaLink</value>
+  </data>
+  <data name="&gt;&gt;btnGachaToolGetGachaLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGachaToolGetGachaLink.Parent" xml:space="preserve">
+    <value>tbpGachaTool</value>
+  </data>
+  <data name="&gt;&gt;btnGachaToolGetGachaLink.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbpGachaTool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbpGachaTool.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tbpGachaTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 475</value>
+  </data>
+  <data name="tbpGachaTool.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbpGachaTool.Text" xml:space="preserve">
+    <value>Gacha Tool</value>
+  </data>
+  <data name="&gt;&gt;tbpGachaTool.Name" xml:space="preserve">
+    <value>tbpGachaTool</value>
+  </data>
+  <data name="&gt;&gt;tbpGachaTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbpGachaTool.Parent" xml:space="preserve">
+    <value>tbcMainTab</value>
+  </data>
+  <data name="&gt;&gt;tbpGachaTool.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbpGameSettings.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnGameSettingsSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnGameSettingsSave.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnGameSettingsSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="btnGameSettingsSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="btnGameSettingsSave.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnGameSettingsSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btnGameSettingsSave.Name" xml:space="preserve">
+    <value>btnGameSettingsSave</value>
+  </data>
+  <data name="&gt;&gt;btnGameSettingsSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGameSettingsSave.Parent" xml:space="preserve">
+    <value>flwGameSettingsButtons</value>
+  </data>
+  <data name="&gt;&gt;btnGameSettingsSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnGameSettingsReset.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnGameSettingsReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGameSettingsReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 3</value>
+  </data>
+  <data name="btnGameSettingsReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="btnGameSettingsReset.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnGameSettingsReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;btnGameSettingsReset.Name" xml:space="preserve">
+    <value>btnGameSettingsReset</value>
+  </data>
+  <data name="&gt;&gt;btnGameSettingsReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGameSettingsReset.Parent" xml:space="preserve">
+    <value>flwGameSettingsButtons</value>
+  </data>
+  <data name="&gt;&gt;btnGameSettingsReset.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 440</value>
+  </data>
+  <data name="flwGameSettingsButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 28</value>
+  </data>
+  <data name="flwGameSettingsButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsButtons.Name" xml:space="preserve">
+    <value>flwGameSettingsButtons</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsButtons.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsLightQuality.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsLightQuality.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGameSettingsLightQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsLightQuality.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsLightQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="lblGameSettingsLightQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsLightQuality.Text" xml:space="preserve">
+    <value>Light Quality:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsLightQuality.Name" xml:space="preserve">
+    <value>lblGameSettingsLightQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsLightQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsLightQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsLightQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsLightQuality.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGameSettingsLightQuality.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmbGameSettingsLightQuality.Items" xml:space="preserve">
+    <value>Very Low</value>
+  </data>
+  <data name="cmbGameSettingsLightQuality.Items1" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="cmbGameSettingsLightQuality.Items2" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="cmbGameSettingsLightQuality.Items3" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="cmbGameSettingsLightQuality.Items4" xml:space="preserve">
+    <value>Very High</value>
+  </data>
+  <data name="cmbGameSettingsLightQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 3</value>
+  </data>
+  <data name="cmbGameSettingsLightQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="cmbGameSettingsLightQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsLightQuality.Name" xml:space="preserve">
+    <value>cmbGameSettingsLightQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsLightQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsLightQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsLightQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsLightQuality.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsLightQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 403</value>
+  </data>
+  <data name="flwGameSettingsLightQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="flwGameSettingsLightQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsLightQuality.Name" xml:space="preserve">
+    <value>flwGameSettingsLightQuality</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsLightQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsLightQuality.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsLightQuality.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblGameSettingsAAMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsAAMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGameSettingsAAMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsAAMode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsAAMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="lblGameSettingsAAMode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsAAMode.Text" xml:space="preserve">
+    <value>AA Mode:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsAAMode.Name" xml:space="preserve">
+    <value>lblGameSettingsAAMode</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsAAMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsAAMode.Parent" xml:space="preserve">
+    <value>flwGameSettingsAAMode</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsAAMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGameSettingsAAMode.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmbGameSettingsAAMode.Items" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="cmbGameSettingsAAMode.Items1" xml:space="preserve">
+    <value>TAA</value>
+  </data>
+  <data name="cmbGameSettingsAAMode.Items2" xml:space="preserve">
+    <value>FXAA</value>
+  </data>
+  <data name="cmbGameSettingsAAMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 3</value>
+  </data>
+  <data name="cmbGameSettingsAAMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="cmbGameSettingsAAMode.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsAAMode.Name" xml:space="preserve">
+    <value>cmbGameSettingsAAMode</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsAAMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsAAMode.Parent" xml:space="preserve">
+    <value>flwGameSettingsAAMode</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsAAMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsAAMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 366</value>
+  </data>
+  <data name="flwGameSettingsAAMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="flwGameSettingsAAMode.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsAAMode.Name" xml:space="preserve">
+    <value>flwGameSettingsAAMode</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsAAMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsAAMode.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsAAMode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblGameSettingsBloomQuality.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsBloomQuality.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGameSettingsBloomQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsBloomQuality.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsBloomQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="lblGameSettingsBloomQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsBloomQuality.Text" xml:space="preserve">
+    <value>Bloom Quality:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsBloomQuality.Name" xml:space="preserve">
+    <value>lblGameSettingsBloomQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsBloomQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsBloomQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsBloomQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsBloomQuality.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGameSettingsBloomQuality.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmbGameSettingsBloomQuality.Items" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="cmbGameSettingsBloomQuality.Items1" xml:space="preserve">
+    <value>Very Low</value>
+  </data>
+  <data name="cmbGameSettingsBloomQuality.Items2" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="cmbGameSettingsBloomQuality.Items3" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="cmbGameSettingsBloomQuality.Items4" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="cmbGameSettingsBloomQuality.Items5" xml:space="preserve">
+    <value>Very High</value>
+  </data>
+  <data name="cmbGameSettingsBloomQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 3</value>
+  </data>
+  <data name="cmbGameSettingsBloomQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="cmbGameSettingsBloomQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsBloomQuality.Name" xml:space="preserve">
+    <value>cmbGameSettingsBloomQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsBloomQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsBloomQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsBloomQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsBloomQuality.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsBloomQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 329</value>
+  </data>
+  <data name="flwGameSettingsBloomQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="flwGameSettingsBloomQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsBloomQuality.Name" xml:space="preserve">
+    <value>flwGameSettingsBloomQuality</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsBloomQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsBloomQuality.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsBloomQuality.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblGameSettingsSFXQuality.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsSFXQuality.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGameSettingsSFXQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsSFXQuality.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsSFXQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="lblGameSettingsSFXQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsSFXQuality.Text" xml:space="preserve">
+    <value>SFX Quality:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsSFXQuality.Name" xml:space="preserve">
+    <value>lblGameSettingsSFXQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsSFXQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsSFXQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsSFXQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsSFXQuality.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGameSettingsSFXQuality.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmbGameSettingsSFXQuality.Items" xml:space="preserve">
+    <value>Very Low</value>
+  </data>
+  <data name="cmbGameSettingsSFXQuality.Items1" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="cmbGameSettingsSFXQuality.Items2" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="cmbGameSettingsSFXQuality.Items3" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="cmbGameSettingsSFXQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 3</value>
+  </data>
+  <data name="cmbGameSettingsSFXQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="cmbGameSettingsSFXQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsSFXQuality.Name" xml:space="preserve">
+    <value>cmbGameSettingsSFXQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsSFXQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsSFXQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsSFXQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsSFXQuality.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsSFXQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 292</value>
+  </data>
+  <data name="flwGameSettingsSFXQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="flwGameSettingsSFXQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsSFXQuality.Name" xml:space="preserve">
+    <value>flwGameSettingsSFXQuality</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsSFXQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsSFXQuality.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsSFXQuality.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblGameSettingsEnvDetailQuality.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsEnvDetailQuality.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGameSettingsEnvDetailQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsEnvDetailQuality.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsEnvDetailQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 17</value>
+  </data>
+  <data name="lblGameSettingsEnvDetailQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsEnvDetailQuality.Text" xml:space="preserve">
+    <value>Env Detail Quality:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsEnvDetailQuality.Name" xml:space="preserve">
+    <value>lblGameSettingsEnvDetailQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsEnvDetailQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsEnvDetailQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsEnvDetailQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsEnvDetailQuality.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGameSettingsEnvDetailQuality.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmbGameSettingsEnvDetailQuality.Items" xml:space="preserve">
+    <value>Very Low</value>
+  </data>
+  <data name="cmbGameSettingsEnvDetailQuality.Items1" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="cmbGameSettingsEnvDetailQuality.Items2" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="cmbGameSettingsEnvDetailQuality.Items3" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="cmbGameSettingsEnvDetailQuality.Items4" xml:space="preserve">
+    <value>Very High</value>
+  </data>
+  <data name="cmbGameSettingsEnvDetailQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 3</value>
+  </data>
+  <data name="cmbGameSettingsEnvDetailQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="cmbGameSettingsEnvDetailQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsEnvDetailQuality.Name" xml:space="preserve">
+    <value>cmbGameSettingsEnvDetailQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsEnvDetailQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsEnvDetailQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsEnvDetailQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsEnvDetailQuality.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsEnvDetailQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 255</value>
+  </data>
+  <data name="flwGameSettingsEnvDetailQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="flwGameSettingsEnvDetailQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsEnvDetailQuality.Name" xml:space="preserve">
+    <value>flwGameSettingsEnvDetailQuality</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsEnvDetailQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsEnvDetailQuality.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsEnvDetailQuality.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblGameSettingsCharacterQuality.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsCharacterQuality.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGameSettingsCharacterQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsCharacterQuality.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsCharacterQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 17</value>
+  </data>
+  <data name="lblGameSettingsCharacterQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsCharacterQuality.Text" xml:space="preserve">
+    <value>Character Quality:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsCharacterQuality.Name" xml:space="preserve">
+    <value>lblGameSettingsCharacterQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsCharacterQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsCharacterQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsCharacterQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsCharacterQuality.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGameSettingsCharacterQuality.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmbGameSettingsCharacterQuality.Items" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="cmbGameSettingsCharacterQuality.Items1" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="cmbGameSettingsCharacterQuality.Items2" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="cmbGameSettingsCharacterQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 3</value>
+  </data>
+  <data name="cmbGameSettingsCharacterQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="cmbGameSettingsCharacterQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsCharacterQuality.Name" xml:space="preserve">
+    <value>cmbGameSettingsCharacterQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsCharacterQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsCharacterQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsCharacterQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsCharacterQuality.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsCharacterQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 218</value>
+  </data>
+  <data name="flwGameSettingsCharacterQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="flwGameSettingsCharacterQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsCharacterQuality.Name" xml:space="preserve">
+    <value>flwGameSettingsCharacterQuality</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsCharacterQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsCharacterQuality.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsCharacterQuality.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblGameSettingsReflectionQuality.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsReflectionQuality.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGameSettingsReflectionQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsReflectionQuality.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsReflectionQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 17</value>
+  </data>
+  <data name="lblGameSettingsReflectionQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsReflectionQuality.Text" xml:space="preserve">
+    <value>Reflection Quality:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsReflectionQuality.Name" xml:space="preserve">
+    <value>lblGameSettingsReflectionQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsReflectionQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsReflectionQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsReflectionQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsReflectionQuality.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGameSettingsReflectionQuality.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmbGameSettingsReflectionQuality.Items" xml:space="preserve">
+    <value>Very Low</value>
+  </data>
+  <data name="cmbGameSettingsReflectionQuality.Items1" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="cmbGameSettingsReflectionQuality.Items2" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="cmbGameSettingsReflectionQuality.Items3" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="cmbGameSettingsReflectionQuality.Items4" xml:space="preserve">
+    <value>Very High</value>
+  </data>
+  <data name="cmbGameSettingsReflectionQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 3</value>
+  </data>
+  <data name="cmbGameSettingsReflectionQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="cmbGameSettingsReflectionQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsReflectionQuality.Name" xml:space="preserve">
+    <value>cmbGameSettingsReflectionQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsReflectionQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsReflectionQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsReflectionQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsReflectionQuality.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsReflectionQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 181</value>
+  </data>
+  <data name="flwGameSettingsReflectionQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="flwGameSettingsReflectionQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsReflectionQuality.Name" xml:space="preserve">
+    <value>flwGameSettingsReflectionQuality</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsReflectionQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsReflectionQuality.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsReflectionQuality.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblGameSettingsShadowQuality.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsShadowQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsShadowQuality.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsShadowQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="lblGameSettingsShadowQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsShadowQuality.Text" xml:space="preserve">
+    <value>Shadow Quality:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsShadowQuality.Name" xml:space="preserve">
+    <value>lblGameSettingsShadowQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsShadowQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsShadowQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsShadowQuality</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsShadowQuality.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGameSettingsShadowQuality.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmbGameSettingsShadowQuality.Items" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="cmbGameSettingsShadowQuality.Items1" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="cmbGameSettingsShadowQuality.Items2" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="cmbGameSettingsShadowQuality.Items3" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="cmbGameSettingsShadowQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 3</value>
+  </data>
+  <data name="cmbGameSettingsShadowQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="cmbGameSettingsShadowQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsShadowQuality.Name" xml:space="preserve">
+    <value>cmbGameSettingsShadowQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsShadowQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsShadowQuality.Parent" xml:space="preserve">
+    <value>flwGameSettingsShadowQuality</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsShadowQuality.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsShadowQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 144</value>
+  </data>
+  <data name="flwGameSettingsShadowQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="flwGameSettingsShadowQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsShadowQuality.Name" xml:space="preserve">
+    <value>flwGameSettingsShadowQuality</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsShadowQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsShadowQuality.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsShadowQuality.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblGameSettingsHeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsHeight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="lblGameSettingsHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsHeight.Text" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsHeight.Name" xml:space="preserve">
+    <value>lblGameSettingsHeight</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsHeight.Parent" xml:space="preserve">
+    <value>flwGameSettingsPCResolution</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsHeight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtGameSettingsHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 3</value>
+  </data>
+  <data name="txtGameSettingsHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="txtGameSettingsHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtGameSettingsHeight.Name" xml:space="preserve">
+    <value>txtGameSettingsHeight</value>
+  </data>
+  <data name="&gt;&gt;txtGameSettingsHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGameSettingsHeight.Parent" xml:space="preserve">
+    <value>flwGameSettingsPCResolution</value>
+  </data>
+  <data name="&gt;&gt;txtGameSettingsHeight.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblGameSettingsWidth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsWidth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGameSettingsWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 7</value>
+  </data>
+  <data name="lblGameSettingsWidth.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="lblGameSettingsWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblGameSettingsWidth.Text" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsWidth.Name" xml:space="preserve">
+    <value>lblGameSettingsWidth</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsWidth.Parent" xml:space="preserve">
+    <value>flwGameSettingsPCResolution</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsWidth.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtGameSettingsWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 3</value>
+  </data>
+  <data name="txtGameSettingsWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="txtGameSettingsWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtGameSettingsWidth.Name" xml:space="preserve">
+    <value>txtGameSettingsWidth</value>
+  </data>
+  <data name="&gt;&gt;txtGameSettingsWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGameSettingsWidth.Parent" xml:space="preserve">
+    <value>flwGameSettingsPCResolution</value>
+  </data>
+  <data name="&gt;&gt;txtGameSettingsWidth.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkGameSettingsFullScreen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkGameSettingsFullScreen.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="chkGameSettingsFullScreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 5</value>
+  </data>
+  <data name="chkGameSettingsFullScreen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 5, 3, 3</value>
+  </data>
+  <data name="chkGameSettingsFullScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 22</value>
+  </data>
+  <data name="chkGameSettingsFullScreen.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkGameSettingsFullScreen.Text" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <data name="&gt;&gt;chkGameSettingsFullScreen.Name" xml:space="preserve">
+    <value>chkGameSettingsFullScreen</value>
+  </data>
+  <data name="&gt;&gt;chkGameSettingsFullScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkGameSettingsFullScreen.Parent" xml:space="preserve">
+    <value>flwGameSettingsPCResolution</value>
+  </data>
+  <data name="&gt;&gt;chkGameSettingsFullScreen.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="flwGameSettingsPCResolution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="flwGameSettingsPCResolution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 30</value>
+  </data>
+  <data name="flwGameSettingsPCResolution.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsPCResolution.Name" xml:space="preserve">
+    <value>flwGameSettingsPCResolution</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsPCResolution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsPCResolution.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsPCResolution.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblGameSettingsRenderScale.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsRenderScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsRenderScale.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsRenderScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="lblGameSettingsRenderScale.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsRenderScale.Text" xml:space="preserve">
+    <value>Render Scale:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsRenderScale.Name" xml:space="preserve">
+    <value>lblGameSettingsRenderScale</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsRenderScale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsRenderScale.Parent" xml:space="preserve">
+    <value>flwGameSettingsRenderScale</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsRenderScale.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.Items" xml:space="preserve">
+    <value>0.6</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.Items1" xml:space="preserve">
+    <value>0.8</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.Items2" xml:space="preserve">
+    <value>1.0</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.Items3" xml:space="preserve">
+    <value>1.2</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.Items4" xml:space="preserve">
+    <value>1.4</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.Items5" xml:space="preserve">
+    <value>1.6</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.Items6" xml:space="preserve">
+    <value>1.8</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.Items7" xml:space="preserve">
+    <value>2.0</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 3</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="cmbGameSettingsRenderScale.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsRenderScale.Name" xml:space="preserve">
+    <value>cmbGameSettingsRenderScale</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsRenderScale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsRenderScale.Parent" xml:space="preserve">
+    <value>flwGameSettingsRenderScale</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsRenderScale.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsRenderScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 107</value>
+  </data>
+  <data name="flwGameSettingsRenderScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="flwGameSettingsRenderScale.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsRenderScale.Name" xml:space="preserve">
+    <value>flwGameSettingsRenderScale</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsRenderScale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsRenderScale.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsRenderScale.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblGameSettingsFPS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGameSettingsFPS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblGameSettingsFPS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 7, 3, 0</value>
+  </data>
+  <data name="lblGameSettingsFPS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="lblGameSettingsFPS.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGameSettingsFPS.Text" xml:space="preserve">
+    <value>FPS:</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsFPS.Name" xml:space="preserve">
+    <value>lblGameSettingsFPS</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsFPS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsFPS.Parent" xml:space="preserve">
+    <value>flwGameSettingsFPS</value>
+  </data>
+  <data name="&gt;&gt;lblGameSettingsFPS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGameSettingsFPS.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmbGameSettingsFPS.Items" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="cmbGameSettingsFPS.Items1" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="cmbGameSettingsFPS.Items2" xml:space="preserve">
+    <value>120</value>
+  </data>
+  <data name="cmbGameSettingsFPS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 3</value>
+  </data>
+  <data name="cmbGameSettingsFPS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="cmbGameSettingsFPS.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsFPS.Name" xml:space="preserve">
+    <value>cmbGameSettingsFPS</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsFPS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsFPS.Parent" xml:space="preserve">
+    <value>flwGameSettingsFPS</value>
+  </data>
+  <data name="&gt;&gt;cmbGameSettingsFPS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flwGameSettingsFPS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="flwGameSettingsFPS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="flwGameSettingsFPS.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsFPS.Name" xml:space="preserve">
+    <value>flwGameSettingsFPS</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsFPS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsFPS.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;flwGameSettingsFPS.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chkGameSettingsEnableVSync.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkGameSettingsEnableVSync.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="chkGameSettingsEnableVSync.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 79</value>
+  </data>
+  <data name="chkGameSettingsEnableVSync.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="chkGameSettingsEnableVSync.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkGameSettingsEnableVSync.Text" xml:space="preserve">
+    <value>Enable VSync</value>
+  </data>
+  <data name="&gt;&gt;chkGameSettingsEnableVSync.Name" xml:space="preserve">
+    <value>chkGameSettingsEnableVSync</value>
+  </data>
+  <data name="&gt;&gt;chkGameSettingsEnableVSync.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkGameSettingsEnableVSync.Parent" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;chkGameSettingsEnableVSync.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tbpGameSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tbpGameSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tbpGameSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 475</value>
+  </data>
+  <data name="tbpGameSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbpGameSettings.Text" xml:space="preserve">
+    <value>Game Settings</value>
+  </data>
+  <data name="&gt;&gt;tbpGameSettings.Name" xml:space="preserve">
+    <value>tbpGameSettings</value>
+  </data>
+  <data name="&gt;&gt;tbpGameSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbpGameSettings.Parent" xml:space="preserve">
+    <value>tbcMainTab</value>
+  </data>
+  <data name="&gt;&gt;tbpGameSettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txtAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txtAbout.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAbout.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="txtAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>789, 479</value>
+  </data>
+  <data name="txtAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtAbout.Name" xml:space="preserve">
+    <value>txtAbout</value>
+  </data>
+  <data name="&gt;&gt;txtAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAbout.Parent" xml:space="preserve">
+    <value>tbpAbout</value>
+  </data>
+  <data name="&gt;&gt;txtAbout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbpAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tbpAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tbpAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 475</value>
+  </data>
+  <data name="tbpAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tbpAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;tbpAbout.Name" xml:space="preserve">
+    <value>tbpAbout</value>
+  </data>
+  <data name="&gt;&gt;tbpAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbpAbout.Parent" xml:space="preserve">
+    <value>tbcMainTab</value>
+  </data>
+  <data name="&gt;&gt;tbpAbout.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbcMainTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tbcMainTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 505</value>
+  </data>
+  <data name="tbcMainTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbcMainTab.Name" xml:space="preserve">
+    <value>tbcMainTab</value>
+  </data>
+  <data name="&gt;&gt;tbcMainTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbcMainTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbcMainTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 505</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Honkai: Star Rail Tool</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
