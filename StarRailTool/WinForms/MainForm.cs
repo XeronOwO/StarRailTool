@@ -36,6 +36,8 @@ namespace StarRailTool.WinForms
 			txtAbout.Text =
 $@"StarRailTool v{Assembly.GetExecutingAssembly().GetName().Version}
 
+https://github.com/XeronOwO/StarRailTool
+
 License:
 --------------------------------------------------
 MIT License
