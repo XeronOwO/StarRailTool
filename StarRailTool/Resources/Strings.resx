@@ -136,6 +136,9 @@ Continue?</value>
   <data name="GetGameDirectoryFailed" xml:space="preserve">
     <value>Could not get game directory.</value>
   </data>
+  <data name="GraphicsSettingsNotFound" xml:space="preserve">
+    <value>Some of the graphics settings is missing. Please change any option in game graphics settings(e.g. Change FPS from 60 to 30), exit game, and click on "Reset" button to retry.</value>
+  </data>
   <data name="Info" xml:space="preserve">
     <value>Info</value>
   </data>

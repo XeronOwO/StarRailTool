@@ -137,6 +137,9 @@
   <data name="GetGameDirectoryFailed" xml:space="preserve">
     <value>无法获取游戏路径。</value>
   </data>
+  <data name="GraphicsSettingsNotFound" xml:space="preserve">
+    <value>部分图像设置缺失。请尝试在游戏中修改图像设置（例如，将帧率设置为30），退出游戏，然后点击“重置”按钮重试。</value>
+  </data>
   <data name="Info" xml:space="preserve">
     <value>信息</value>
   </data>

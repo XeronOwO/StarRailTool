@@ -12,6 +12,7 @@ using System.Reflection;
 using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using System.Windows.Forms;
 
 namespace StarRailTool.WinForms
@@ -165,9 +166,9 @@ https://github.com/commandlineparser/commandline/blob/master/License.md
 				cmbGameSettingsFPS.Text = GraphicsSettings_Model.Instance.FPS.ToString();
 				chkGameSettingsEnableVSync.Checked = GraphicsSettings_Model.Instance.EnableVSync;
 				cmbGameSettingsRenderScale.Text = GraphicsSettings_Model.Instance.RenderScale.ToString();
-				cmbGameSettingsShadowQuality.SelectedIndex = GraphicsSettings_Model.Instance.ShadowQuality - 1;
+				cmbGameSettingsShadowQuality.SelectedIndex = GraphicsSettings_Model.Instance.ShadowQuality - 2;
 				cmbGameSettingsReflectionQuality.SelectedIndex = GraphicsSettings_Model.Instance.ReflectionQuality - 1;
-				cmbGameSettingsCharacterQuality.SelectedIndex = GraphicsSettings_Model.Instance.CharacterQuality - 2;
+				cmbGameSettingsCharacterQuality.SelectedIndex = GraphicsSettings_Model.Instance.CharacterQuality - 3;
 				cmbGameSettingsEnvDetailQuality.SelectedIndex = GraphicsSettings_Model.Instance.EnvDetailQuality - 1;
 				cmbGameSettingsSFXQuality.SelectedIndex = GraphicsSettings_Model.Instance.SFXQuality - 1;
 				cmbGameSettingsBloomQuality.SelectedIndex = GraphicsSettings_Model.Instance.BloomQuality;
@@ -176,7 +177,7 @@ https://github.com/commandlineparser/commandline/blob/master/License.md
 			}
 			catch (Exception e)
 			{
-				MessageBox.Show(e.ToString(), Strings.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show($"{Strings.GraphicsSettingsNotFound}\n{e}", Strings.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 		}
 

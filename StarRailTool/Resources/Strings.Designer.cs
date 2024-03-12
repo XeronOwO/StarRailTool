@@ -116,6 +116,15 @@ namespace StarRailTool.Resources {
         }
         
         /// <summary>
+        ///   查找类似 Some of the graphics settings is missing. Please change any option in game graphics settings(e.g. Change FPS from 60 to 30), exit game, and click on &quot;Reset&quot; button to retry. 的本地化字符串。
+        /// </summary>
+        internal static string GraphicsSettingsNotFound {
+            get {
+                return ResourceManager.GetString("GraphicsSettingsNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Info 的本地化字符串。
         /// </summary>
         internal static string Info {
