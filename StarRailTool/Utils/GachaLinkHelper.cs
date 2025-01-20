@@ -124,7 +124,7 @@ namespace StarRailTool.Utils
 				list.Add(bytes[i]);
 			}
 
-			return "https://api-takumi.mihoyo.com/common/gacha_record/api/getGachaLog?"
+			return "https://public-operation-hkrpg.mihoyo.com/common/gacha_record/api/getGachaLog?"
 				+ Encoding.UTF8.GetString(list.ToArray());
 		}
 
